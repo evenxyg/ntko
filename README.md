@@ -51,6 +51,7 @@ uploadOfficeFile 保存office文档的文件夹
 uploadPdfFile  保存pdf文件的文件夹
 
 请配置示例程序时,在FilePathInfo.jsp中设置tempFile（临时文件目录）, uploadAttachFile（文档附件目录）,uploadHtmlFile（html文件目录）, uploadOfficeFile（文档目录），secSignFile（印章文件目录）文件夹的服务器绝对磁盘路径.
+请配置示例程序时,在connectionInfo.jsp中设置你自己的数据库信息
 
 3:本示例使用mysql数据库,tomcat服务器.
 如有中文名称的文件不能打开,有可能是tomcat服务器配置,不支持中文url.   打开server.xml,并在在Connector中添加  URIEncoding="UTF-8"
